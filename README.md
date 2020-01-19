@@ -64,6 +64,19 @@ Some Lifecycles:
 - IntelliJ has a lot of archtypes when creating a project that can be utilized as well.
 
 
+## Common Maven Plugins
+
+### Maven Lifecycle Plugins
+- Clean plugin: to Clean and delete any files/build artifacts generated during compilation
+- Compiler plugin: to compile, testCompile
+- Resource plugin: uses resources, testResources, copy-resources
+- Surefire plugin: to execute unit tests, support JUnit and TestNG
+- jar plugin: jar:jar, jar:test-jar; builds jars from compiled artifacts and project resources
+- Deploy plugin: deploy:deploy, deploy:deploy-file; deploy artifacts to remote maven repositories
+- Site plugin: site:site, site:deploy, site:run, site:stage, site:stage-deploy, site:attach-descriptor, site:jar, site:effective-site
+- 
+
+
 
 
 
