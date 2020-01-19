@@ -26,5 +26,41 @@
  - Follows Schema rule which complies with maven-4.0.0.xsd
  - Effective POM: POM that is complete with inherited from different POMs
  - Through intelliJ you can check the effective POM that can compile up with all the dependencies needed at runtime.
- 
+
+ ### Maven Dependencies
+ - Maven dependencies can go through many layers
+ - Dependency Mediation: Define which versions of the dependency to be used.
+ - You can also exclude dependencies or make them optional.
+ - Scope: Compile, Provided, Runtime, Test, System, Import
+
+ Important Commands:
+ - dependency:tree - shows the depenency tree
+ - dependency:go-offline - Resolve all, prepare to go offline
+ - dependency:purge-local-repository: Clear artifacts from local repo
+ - dependency:sources - get sources for all dependencies
+
+ ### Maven Standard Directory Layout
+ - src
+     - main // Main Project files
+        -java // Any classes or packages
+        -resources // Almost all assets
+    -test // Test Files
+        -java // Any java test files
+        -resources
+
+Make sure to check out the Standard Directory Layout at maven.apache.org
+
+### Maven Build Cycles
+- Lifecycle is a group of phases or steps each of those are bound to goals.
+- All this work is done with plugins
+
+Some Lifecycles:
+- Clean: Cleans the project and cleans out anything that was there
+- Default: Builds and deploys the project. Steps: Validate -> Compile -> Test -> Package -> Verify -> Install -> Deploy
+- Site: Creates a website for your project. 
+
+
+
+
+
 
