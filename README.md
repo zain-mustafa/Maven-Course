@@ -74,7 +74,6 @@ Some Lifecycles:
 - jar plugin: jar:jar, jar:test-jar; builds jars from compiled artifacts and project resources
 - Deploy plugin: deploy:deploy, deploy:deploy-file; deploy artifacts to remote maven repositories
 - Site plugin: site:site, site:deploy, site:run, site:stage, site:stage-deploy, site:attach-descriptor, site:jar, site:effective-site
-- 
 
 
 
