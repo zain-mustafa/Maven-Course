@@ -59,6 +59,9 @@ Some Lifecycles:
 - Default: Builds and deploys the project. Steps: Validate -> Compile -> Test -> Package -> Verify -> Install -> Deploy
 - Site: Creates a website for your project. 
 
+### Maven Archtypes
+- go to: maven.apache.org/archetypes/
+- IntelliJ has a lot of archtypes when creating a project that can be utilized as well.
 
 
 
