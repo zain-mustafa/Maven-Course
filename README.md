@@ -40,13 +40,13 @@
  - dependency:sources - get sources for all dependencies
 
  ### Maven Standard Directory Layout
- - src
-     - main // Main Project files
-        -java // Any classes or packages
-        -resources // Almost all assets
-    -test // Test Files
-        -java // Any java test files
-        -resources
+|- src
+|-- main // Main Project files
+|---java // Any classes or packages
+|---resources // Almost all assets
+|--test // Test Files
+|---java // Any java test files
+|---resources
 
 Make sure to check out the Standard Directory Layout at maven.apache.org
 
